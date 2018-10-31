@@ -56,3 +56,12 @@ Go to the terminal again and run **python print_database.py lecture.db**. this c
 2. Call this function.
 
 3. Run **databases.py** then print the database using this command line **python print_database.py lecture.db** to check if you successfully deleted the product.
+
+
+
+## Extra: Displaying The Products
+
+1. Now that you have the basic CRUD (Create/Read/Update/Delete) functions fully working, display the details about the **first** product in the database in **"shop.html"** page.
+(Guide: in **model.py** file, in the routing function for **"shop.html"** use the retrieve function to get the product, and then pass it to the html page.)
+
+2. Congratulations! If you reached this phase of the lab then you're doing great. Now, instead of displaying only the first product make it display **all** the products. Note that you need to deal with lists this time. Good luck.
