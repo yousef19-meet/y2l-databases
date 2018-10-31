@@ -1,4 +1,4 @@
-from model import Base, Student
+from model import *
 
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
@@ -9,3 +9,4 @@ DBSession = sessionmaker(bind=engine)
 session = DBSession()
 
 # Write your functions to interact with the database here :
+
