@@ -19,8 +19,8 @@ Go to the terminal again and run **python print_database.py lecture.db**. this c
 
 3. Show your work to an instructor or a TA.
 
-
-## Part 2: Insert Data to Database
+## Part 2: Database writes
+### 2.1 Creating objects
 
 1. Create a function in **databases.py** that adds a product to the database.
 
@@ -28,18 +28,7 @@ Go to the terminal again and run **python print_database.py lecture.db**. this c
 
 3. Run **databases.py** then print the database using this command line **python print_database.py lecture.db** to check if you successfully added the object.
 
-
-
-## Part 3: Retrieve Data from Database
-
-1. Create a function in **databases.py** that gets the first product from the **Prodcuts** table in your database **and returns it**.
-
-2. Call this function and **print** the product.
-
-3. Run **databases.py** and check whether it printed the object or not.
-
-
-## Part 4: Update Data in Database
+### 2.2 Updating objects
 
 1. Create a function in **databases.py** that updates 2 attributes of a product from the database.
 
@@ -48,8 +37,7 @@ Go to the terminal again and run **python print_database.py lecture.db**. this c
 3. Run **databases.py** then print the database using this command line **python print_database.py lecture.db** to check if you successfully updated the product.
 
 
-
-## Part 5: Delete Data from Database
+### 2.3 Deleting from a database 
 
 1. Create a function in **databases.py** that deletes one product of your choice.
 
@@ -57,8 +45,13 @@ Go to the terminal again and run **python print_database.py lecture.db**. this c
 
 3. Run **databases.py** then print the database using this command line **python print_database.py lecture.db** to check if you successfully deleted the product.
 
+### Part 3: Retrieve Data from Database
 
+1. Create a function in **databases.py** that gets the first product from the **Prodcuts** table in your database **and returns it**.
 
+2. Call this function and **print** the product.
+
+3. Run **databases.py** and check whether it printed the object or not.
 ## Extra: Displaying The Products
 
 1. Now that you have the basic CRUD (Create/Read/Update/Delete) functions fully working, display the details about the **first** product in the database in **"shop.html"** page.
