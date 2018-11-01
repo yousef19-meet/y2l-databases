@@ -13,9 +13,7 @@
 
 1. Open models.py and create the products class (Table). Make sure to include at least 5 attributes of your choice (i.e. price, quantity, description).
 
-2. Open the terminal, navigate to your folder from the terminal (cd y2l...) then run **databases.py**.
-If you open the folder you can notice that there's a new file called **lecture.db** in which all the data is stored (Your database).
-Go to the terminal again and run **python print_database.py lecture.db**. this command prints your database where you should see the table that you've recently created.
+2. Open the terminal, navigate to your folder from the terminal (cd y2l...) then start a terminal and import everything from the models.py file (`from models import *`) use that to create Product instance.
 
 3. Show your work to an instructor or a TA.
 
@@ -26,7 +24,12 @@ Go to the terminal again and run **python print_database.py lecture.db**. this c
 
 2. Call this function to add your first object to the database.
 
-3. Run **databases.py** then print the database using this command line **python print_database.py lecture.db** to check if you successfully added the object.
+If you open the folder you can notice that there's a new file called **lecture.db** in which all the data is stored (Your database).
+
+3. * Open the python shell (by running `python` in your terminal) 
+   * Import the `create_product` function (`from databases import create_product`) 
+   * Call the `create_prodduct` function with the inputs you defined in the databases.py file
+   * print the database using this command line **python print_database.py lecture.db** to check if you successfully added the object.
 
 
 ### 2.2 Deleting from a database 
@@ -35,7 +38,10 @@ Go to the terminal again and run **python print_database.py lecture.db**. this c
 
 2. Call this function.
 
-3. Run **databases.py** then print the database using this command line **python print_database.py lecture.db** to check if you successfully deleted the product.
+3. * Open the python shell (by running `python` in your terminal) 
+   * Import the `delete_product` function (`from databases import delete_product`) 
+   * Call the `delete_prodduct` function with the inputs you defined in the databases.py file
+   * print the database using this command line **python print_database.py lecture.db** to check if you successfully deleted the object.
 
 ### 2.3 Updating objects
 
@@ -43,7 +49,10 @@ Go to the terminal again and run **python print_database.py lecture.db**. this c
 
 2. Call this function.
 
-3. Run **databases.py** then print the database using this command line **python print_database.py lecture.db** to check if you successfully updated the product.
+3. * Open the python shell (by running `python` in your terminal) 
+   * Import the `delete_product` function (`from databases import delete_product`) 
+   * Call the `delete_prodduct` function with the inputs you defined in the databases.py file
+   * print the database using this command line **python print_database.py lecture.db** to check if you successfully updated the object.
 
 ### Extra: Add a maximium for price
 If a user tries to create (or update) a product with a price that's more than "300", throw and error saying that the price is too high
