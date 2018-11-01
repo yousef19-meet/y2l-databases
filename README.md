@@ -11,7 +11,7 @@
 
 ## Part 1: Defining The Products Table
 
-1. Open model.py and create the products class (Table). Make sure to include at least 5 attributes of your choice (i.e. price, quantity, description).
+1. Open models.py and create the products class (Table). Make sure to include at least 5 attributes of your choice (i.e. price, quantity, description).
 
 2. Open the terminal, navigate to your folder from the terminal (cd y2l...) then run **databases.py**.
 If you open the folder you can notice that there's a new file called **lecture.db** in which all the data is stored (Your database).
