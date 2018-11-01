@@ -52,7 +52,7 @@ Go to the terminal again and run **python print_database.py lecture.db**. this c
 2. Call this function and **print** the product.
 
 3. Run **databases.py** and check whether it printed the object or not.
-## Extra: Displaying The Products
+### Extra: Displaying The Products
 
 1. Now that you have the basic CRUD (Create/Read/Update/Delete) functions fully working, display the details about the **first** product in the database in **"shop.html"** page.
 (Guide: in **model.py** file, in the routing function for **"shop.html"** use the retrieve function to get the product, and then pass it to the html page.)
