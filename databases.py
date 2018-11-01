@@ -10,3 +10,16 @@ session = DBSession()
 
 # Write your functions to interact with the database here :
 
+def create_product():
+  #TODO: complete the functions (you will need to change the function's inputs)
+  pass
+
+def update_product():
+  #TODO: complete the functions (you will need to change the function's inputs)
+  pass
+
+def delete_product(id):
+  pass
+
+def get_product(id):
+  pass
