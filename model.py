@@ -6,3 +6,6 @@ from sqlalchemy import create_engine
 Base = declarative_base()
 
 # Write your classes here :
+class Product(Base):
+    # TODO: complete this class
+    pass
