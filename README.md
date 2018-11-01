@@ -28,7 +28,16 @@ Go to the terminal again and run **python print_database.py lecture.db**. this c
 
 3. Run **databases.py** then print the database using this command line **python print_database.py lecture.db** to check if you successfully added the object.
 
-### 2.2 Updating objects
+
+### 2.2 Deleting from a database 
+
+1. Create a function in **databases.py** that deletes one product of your choice.
+
+2. Call this function.
+
+3. Run **databases.py** then print the database using this command line **python print_database.py lecture.db** to check if you successfully deleted the product.
+
+### 2.3 Updating objects
 
 1. Create a function in **databases.py** that updates 2 attributes of a product from the database.
 
@@ -36,14 +45,8 @@ Go to the terminal again and run **python print_database.py lecture.db**. this c
 
 3. Run **databases.py** then print the database using this command line **python print_database.py lecture.db** to check if you successfully updated the product.
 
-
-### 2.3 Deleting from a database 
-
-1. Create a function in **databases.py** that deletes one product of your choice.
-
-2. Call this function.
-
-3. Run **databases.py** then print the database using this command line **python print_database.py lecture.db** to check if you successfully deleted the product.
+### Extra: Add a maximium for price
+If a user tries to create (or update) a product with a price that's more than "300", throw and error saying that the price is too high
 
 ## Part 3: Database Reads
 
@@ -58,6 +61,11 @@ Go to the terminal again and run **python print_database.py lecture.db**. this c
 
 5 Now, instead of displaying only the first product make it display **all** the products. Note that you need to deal with lists this time. Good luck.
 
+
+### Extra: Displaying Images
+Congratulations! If you reached this phase of the lab then you're doing great. Since you are so smart and a database expert now, add an attribute called image to the Product model and have your product details page from last lab display the product's image
+
+
 ### Extra: Displaying The Products
-Congratulations! If you reached this phase of the lab then you're doing great. Since you are so smart and a database expert now, create a search box in your page that allows you to search a product by it's name.
- Extra extra: make your search work if the user provides only the first part of the keyword. (Exampel if user write "key" and there's a product with name "keyboard" a result should be returned)
+Create a search box in your page that allows you to search a product by it's name.
+Extra extra: make your search work if the user provides only the first part of the keyword. (Exampel if user write "key" and there's a product with name "keyboard" a result should be returned)
