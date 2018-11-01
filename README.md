@@ -45,7 +45,7 @@ Go to the terminal again and run **python print_database.py lecture.db**. this c
 
 3. Run **databases.py** then print the database using this command line **python print_database.py lecture.db** to check if you successfully deleted the product.
 
-### Part 3: Retrieve Data from Database
+## Part 3: Database Reads
 
 1. Create a function in **databases.py** that gets the first product from the **Prodcuts** table in your database **and returns it**.
 
