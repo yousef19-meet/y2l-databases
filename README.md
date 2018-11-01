@@ -56,7 +56,10 @@ If a user tries to create (or update) a product with a price that's more than "3
 
 3. Run **databases.py** and check whether it printed the object or not.
 
-4. Now that you have the basic CRUD (Create/Read/Update/Delete) functions fully working, copy the models.py and database.py files to the folder last week's flask lab. Change the app.py file to import functions from databses.py and display the details about the **first** product in the database in **"shop.html"** page.
+4. Now that you have the basic CRUD (Create/Read/Update/Delete) functions fully working:
+* Copy the models.py and database.py files to the folder last week's flask lab. 
+* Import functions from the databases.py file
+* Change the app.py file to use the import functions and display the details about the **first** product in the database in **"shop.html"** page.
 (Guide: in **model.py** file, in the routing function for **"shop.html"** use the retrieve function to get the product, and then pass it to the html page.)
 
 5 Now, instead of displaying only the first product make it display **all** the products. Note that you need to deal with lists this time. Good luck.
