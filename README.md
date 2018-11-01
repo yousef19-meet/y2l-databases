@@ -60,7 +60,7 @@ If a user tries to create (or update) a product with a price that's more than "3
 * Copy the models.py and database.py files to the folder last week's flask lab. 
 * Import functions from the databases.py file
 * Change the app.py file to use the import functions and display the details about the **first** product in the database in **"shop.html"** page.
-(Guide: in **model.py** file, in the routing function for **"shop.html"** use the retrieve function to get the product, and then pass it to the html page.)
+(Guide: in **models.py** file, in the routing function for **"shop.html"** use the retrieve function to get the product, and then pass it to the html page.)
 
 5 Now, instead of displaying only the first product make it display **all** the products. Note that you need to deal with lists this time. Good luck.
 
